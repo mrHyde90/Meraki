@@ -432,7 +432,8 @@ h2 {
       border-radius: 15px; }
     .recent .card h5 {
       font-size: 20px;
-      color: #fff;
+      color: #00796B;
+      margin-left: 10px;
       margin-bottom: 5px; }
     .recent .card p {
       font-size: 14px;
