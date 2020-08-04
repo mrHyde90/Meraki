@@ -41,7 +41,7 @@ body {
 }
 
 body {
-	background: #0F1215;
+	background: #f7f0f1;
 	font: 16px/30px "merriweather-regular", serif;
 	font-weight: normal;
 	color: #575859;
@@ -379,6 +379,8 @@ img.pull-left {
 	animation: sk-rotateplane 1.2s infinite ease-in-out;
 }
 
+
+
 @-webkit-keyframes sk-rotateplane {
 	0% {
 		-webkit-transform: perspective(120px);
@@ -449,7 +451,6 @@ select {
 	line-height: 24px;
 	border-radius: 3px;
 	max-width: 100%;
-	background: rgba(255, 255, 255, 0.1);
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -564,7 +565,7 @@ hr {
 	font: 15px/30px "raleway-heavy", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 2.5px;
-	color: #FFFFFF;
+	color: black;
 	margin-bottom: 30px;
 	margin-top: 18px;
 }
@@ -575,9 +576,23 @@ hr {
 	left: 3px;
 }
 
+#proyectos h2 {
+	color: black;
+}
+
 .section-head p {
 	font: 20px/36px "merriweather-light", serif;
 	width: 95%;
+}
+
+.cambiar-color{
+	color: black !important;
+}
+.heredado {
+	color: #575859;
+}
+.ver-todos a {
+	color: black;
 }
 
 .section-head:hover h1+hr {
@@ -1294,7 +1309,7 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #portfolio {
-	background: #111417;
+	background: #f7f0f1;
 	padding-top: 120px;
 	border-bottom: 1px solid #15191d;
 }
@@ -2279,17 +2294,19 @@ ul#nav li.current a:after {
 /** 
 /* 12. =contact
 /* =================================================================== */
-
+.con-div {
+	background: #f7f0f1;
+	border-bottom: 1px solid #15191d;
+}
 #quienes {
-	background: #12151B;
+	background: #f7f0f1;
 	padding-top: 60px;
 	padding-bottom: 80px;
 	overflow: hidden;
-	border-bottom: 1px solid #15191d;
 }
 
 #contact {
-	background: #12151B;
+	background: #f7f0f1;
 	padding-top: 120px;
 	padding-bottom: 138px;
 	overflow: hidden;
