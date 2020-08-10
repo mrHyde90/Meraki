@@ -475,6 +475,7 @@ h2 {
   padding: 100px 0;
   margin-top: 0; }
   .fh5co-portfolio h2 {
+    font: 15px/30px "raleway-heavy", sans-serif ;
     color: #584f53;
     margin-bottom: 20px; }
   .fh5co-portfolio .card {
@@ -518,6 +519,10 @@ h2 {
       text-align: center !important; }
       .fh5co-portfolio .bx-middle .heart {
         float: left !important; } }
+
+.cambia-texto {
+  font: 15px/30px "raleway-heavy", sans-serif;
+}
 
 .activity {
   background: #f3e7e8;

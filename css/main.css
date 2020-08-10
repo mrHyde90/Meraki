@@ -590,6 +590,7 @@ hr {
 }
 .heredado {
 	color: #575859;
+	font: 16px/1.9 "merriweather-light", sans-serif;
 }
 .ver-todos a {
 	color: black;
@@ -670,7 +671,7 @@ header.opaque {
 
 /* header logo */
 header .logo {
-	background: #fdc501;
+	/*background: #fdc501;*/
 	float: left;
 	width: auto;
 	margin-left: 15px;
@@ -1954,10 +1955,11 @@ ul#nav li.current a:after {
 }
 
 .bg-dona h2 {
-	font-size: 70px;
+	font-size: 36px;
 	font-weight: 300;
 	margin-bottom: 10px;
 	text-align: center;
+	font-family: "raleway-heavy", sans-serif;
 } 
 
 .bg-dona p {
@@ -1994,6 +1996,14 @@ ul#nav li.current a:after {
 .proyectos-aki {
 	height: 400px;
 	width: 400px !important;
+}
+
+#proyectos h2 {
+	font: 15px/30px "raleway-heavy", sans-serif;
+}
+
+#proyectos p {
+	font: 16px/1.9 "merriweather-light", sans-serif;
 }
 
 .ver-todos {
