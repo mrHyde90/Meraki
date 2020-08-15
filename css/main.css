@@ -665,7 +665,7 @@ header {
 }
 
 header.opaque {
-	background: black;
+	background: white;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -2034,7 +2034,7 @@ ul#nav li.current a:after {
 }
 
 .change-color {
-	background-color: black !important;
+	background-color: white !important;
 }
 
 /* Call To Action 

@@ -659,6 +659,7 @@ h2 {
 
 .fh5co-insta-feed {
   padding: 100px 0;
+  padding-bottom: 0;
   background: #f7f0f1; }
   .fh5co-insta-feed .card {
     box-shadow: none; }
