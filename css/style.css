@@ -701,6 +701,124 @@ h2 {
     margin-left: -55px;
     top: -20px; }
 
+    .heroe-imagen {
+      background-image: url('../images/artes/saxofon.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 700px;
+      width: 100%;
+      margin-top: 66px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .gastro {
+      background-image: url('../images/artes/gastro.jpeg');
+    }
+
+    .liter {
+      background-image: url('../images/artes/lite.jpeg');
+    }
+
+    .cine {
+      background-image: url('../images/artes/cine.jpeg');
+    }
+
+    .heroe-imagen h2 {
+      font-size: 60px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "merriweather-regular";
+    }
+
+    .heroe-imagen p {
+      font-size: 20px;
+    color: #fff;
+    margin-top: 1rem;
+    margin-bottom: 1.5em;
+    font-weight: 300;
+    font-family: "merriweather-light", Arial, serif;
+    }
+
+    .principal-arte {
+      margin-top: 3rem;
+    }
+
+    .texto-titulo {
+      text-align: center;
+    }
+
+    .texto-titulo .nombres {
+      color: rgba(0, 0, 0, 0.7);
+      font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    }
+
+    .texto-titulo .puestos {
+      color: rgba(0, 0, 0, 0.7);
+    font-weight: 400;
+    margin: 0 0 30px 0;
+    font-size: 1.75rem;
+    }
+
+    .programa {
+      display: flex;
+      margin-bottom: 2rem;
+    }
+
+    .programa-description {
+      flex: 1;
+      max-width: 100%;
+      background-color: white;
+      padding: 2rem;
+      color: black;
+    }
+
+    .programa-description h2 {
+      font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 0 0 30px 0;
+     }
+
+     .programa-description p {
+      margin-bottom: 1.5em;
+    font-size: 18px;
+    color: #848484;
+    font-weight: 300;
+    font-family: "Open Sans", Arial, serif;
+    margin: 0 0 10px;
+     }
+
+     .programa-description .btn-primary {
+      background: #00ADB5;
+      color: #fff;
+      border: 2px solid #00ADB5;
+      margin-right: 4px;
+    margin-bottom: 4px;
+    font-family: "Open Sans", Arial, serif;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 30px;
+
+     }
+
+    .programa-imagen {
+      flex: 1;
+    }
+
+    .programa-imagen img {
+      max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none
+    }
+
 .feed-caro {
   padding-top: 36px; }
   @media (max-width: 1199px) {
