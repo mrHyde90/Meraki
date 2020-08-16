@@ -727,6 +727,24 @@ h2 {
       background-image: url('../images/artes/cine.jpeg');
     }
 
+    .teatro {
+      background-image: url('../images/artes/teatro.jpg');
+    }
+
+
+
+    .danza {
+      background-image: url('../images/artes/danza.jpg');
+    }
+
+    .artesanias {
+      background-image: url('../images/artes/artes.jpeg');
+    }
+
+    .arqui {
+      background-image: url('../images/artes/arqui.jpg');
+    }
+
     .heroe-imagen h2 {
       font-size: 60px;
     font-weight: 400;
